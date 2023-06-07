@@ -13,6 +13,12 @@
   cursor: grab;
 }
 
+.hygrometer-thumb:active, .hygrometer-thumb:hover {
+  color: #000;
+  background-color: #fff;
+  border: 1px inset #000;
+}
+
 .hygrometer-track {
   top: 0;
   bottom: 0;
@@ -23,7 +29,7 @@
 }
 
 .hygrometer-track.hygrometer-track-0 {
-  background: red;
+  background: linear-gradient(#0909ea, #64d0e6);;
 }
 
 .actual-humid {

@@ -7,8 +7,8 @@ function LightSwitch() {
 
   return (
     <div className={`light-switch ${themeName}`}>
-      <div onClick={() => setThemeName('day')} className="on">DAY</div>
-      <div onClick={() => setThemeName('night')} className="off">NIGHT</div>
+      <div onClick={() => setThemeName('day')} className="on disable-select">DAY</div>
+      <div onClick={() => setThemeName('night')} className="off disable-select">NIGHT</div>
     </div>
   );
 }

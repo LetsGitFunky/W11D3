@@ -23,3 +23,7 @@
   background-color: gray;
   cursor: pointer;
 }
+
+.disable-select {
+  user-select: none;
+}

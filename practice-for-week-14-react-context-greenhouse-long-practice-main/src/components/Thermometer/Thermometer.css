@@ -23,7 +23,13 @@
 }
 
 .thermometer-track.thermometer-track-0 {
-  background: red;
+  background: linear-gradient(#ff3204, #0c49e2);
+}
+
+.thermometer-thumb:active, .thermometer-thumb:hover {
+  color: #000;
+  background-color: #fff;
+  border: 1px inset #000;
 }
 
 .actual-temp {
